@@ -31,7 +31,7 @@ void OLED_DLY_ms(unsigned int ms);
 void OLED_DLY_us(u16 time);
 void LCD_Init(void);
 void OLED_CLS(void);
-void LCD_Fill(unsigned char dat);
+//void LCD_Fill(unsigned char dat);
 void OLED_GPIO_Config(void);
 
 //SSD1306 OLED 驱动IC驱动代码

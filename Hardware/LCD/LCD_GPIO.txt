@@ -1,0 +1,17 @@
+/*************************************************
+STM32 FSMC驱动LCD液晶显示模块
+
+引脚连接：
+ESP8266_UTXD  --- STM32_A3(USART2_RXD)
+ESP8266_URXD  --- STM32_A2(USART2_TXD)
+ESP8266_VCC   --- STM32_5V
+ESP8266_GND   --- STM32_GND
+ESP8266_RST   --- STM32_A1
+
+LCD_BL --- STM32_C10   //LCD背光端口  	PC10
+LCD_CS --- STM32_C9    //片选端口  	PC9
+LCD_RS --- STM32_C8    //数据/命令 	PC8	   
+LCD_WR --- STM32_C7    //写数据		PC7
+LCD_RD --- STM32_C6    //读数据			PC6
+								    
+*************************************************/

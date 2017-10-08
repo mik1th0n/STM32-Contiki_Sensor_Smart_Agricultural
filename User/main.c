@@ -142,7 +142,6 @@ void BSP_Config(void)
     E30TTLUART_MultiCountConfig(0x0002,0x50,DISABLE,5);		
     printf("E30-TTL-100 OK.\r\n");
 #endif
-
 }
 
 

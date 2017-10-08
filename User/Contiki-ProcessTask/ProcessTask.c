@@ -140,8 +140,8 @@ PROCESS_THREAD(OLED_Show_Increment_process, ev, data)
 #ifdef __BH1750_MODULE_ON__
         OLED_ShowNum(6 * 8,3 * 16, (int)lightIntensityGlobalData,5,16);
 #endif
-        OLED_ShowNum(11 * 8,0,count++,5,16);  
-        OLED_Refresh_Gram();//更新显示
+//        OLED_ShowNum(11 * 8,0,count++,5,16);  
+//        OLED_Refresh_Gram();//更新显示
         Contiki_etimer_DelayMS(1000);
     }
     PROCESS_END();
