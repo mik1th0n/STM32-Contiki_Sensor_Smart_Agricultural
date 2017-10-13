@@ -312,7 +312,7 @@ PROCESS_THREAD(SDS01_Read_PM_Value_process, ev, data)
     PROCESS_BEGIN();
     while(1)
     {
-				printf("I LOVE.\r\n");
+				// printf("I LOVE.\r\n");
         SDS01_LoadReceiveQueueByteToPacketBlock();
         PM2_5_Value = SDS01_getPM2_5_Value();
         PM10_Value = SDS01_getPM10_Value();
