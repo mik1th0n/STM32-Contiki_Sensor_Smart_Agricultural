@@ -1,7 +1,7 @@
 /**
   ******************************************************************************
   */
- 
+
 #include "stm32f10x.h"
 #include "stm32f10x_conf.h"
 #include <string.h>
@@ -164,6 +164,7 @@ int main(void)
 #endif    
     
 #ifdef __CJSON_LIB_TEST__
+
     process_start(&cJSON_test_process,NULL);
 #endif
 
