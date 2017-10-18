@@ -65,10 +65,11 @@ void BSP_Config(void)
     srand(STMFLASH_Read_OneWordData(STM32_FLASH_END_PAGE));
     STMFLASH_Write_OneWordData(STM32_FLASH_END_PAGE,rand());
     NVIC_Configuration_Init();
-    USART1_Config(115200);
+    USART1_Config(921600);
     TIM1_PWM_Init();
-    TIM1_CH1_PWM_Init();
+//    TIM1_CH1_PWM_Init();
     printf("Start Contiki OS\r\n");
+
 #ifdef __LED_BLINK_ON__
     LED_GPIO_Config(); 
 #endif
