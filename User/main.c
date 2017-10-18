@@ -150,7 +150,7 @@ void BSP_Config(void)
 int main(void)
 {
     BSP_Config();    
-    printf("I LOVE U.\r\n");
+    printf("init success.\r\n");
     IWDG_Start(2);  // wifi模块透传之后开启看门狗
     process_init();
     autostart_start(autostart_processes);
